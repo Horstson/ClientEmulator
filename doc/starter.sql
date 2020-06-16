@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50562
 File Encoding         : 65001
 
-Date: 2020-06-16 18:53:07
+Date: 2020-06-16 19:21:58
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -321,11 +321,7 @@ CREATE TABLE `core_role` (
 -- Records of core_role
 -- ----------------------------
 INSERT INTO `core_role` VALUES ('1', 'DEPT_MANAGER', '部门管理员', null, 'R0');
-INSERT INTO `core_role` VALUES ('2', 'CEO', '公司CEO', null, 'R0');
 INSERT INTO `core_role` VALUES ('3', 'ASSIST', '助理', null, 'R0');
-INSERT INTO `core_role` VALUES ('12', '111', '2324324', '2017-09-06 04:08:00', 'R0');
-INSERT INTO `core_role` VALUES ('13', '1111', '哈哈', '2017-09-06 04:09:05', 'R0');
-INSERT INTO `core_role` VALUES ('15', 'admin', 'ivy', '2017-09-06 05:35:04', 'R0');
 INSERT INTO `core_role` VALUES ('17', '123', '我', '2017-09-06 21:23:03', 'R0');
 INSERT INTO `core_role` VALUES ('18', '23', '234', '2017-09-06 21:41:03', 'R0');
 INSERT INTO `core_role` VALUES ('19', '132484', '1', '2017-09-06 21:42:02', 'R0');
@@ -350,7 +346,6 @@ CREATE TABLE `core_role_function` (
 INSERT INTO `core_role_function` VALUES ('1', '1', '1', '5', null);
 INSERT INTO `core_role_function` VALUES ('2', '1', '2', '4', null);
 INSERT INTO `core_role_function` VALUES ('3', '1', '3', '5', null);
-INSERT INTO `core_role_function` VALUES ('4', '2', '2', '2', null);
 INSERT INTO `core_role_function` VALUES ('5', '3', '2', '5', null);
 INSERT INTO `core_role_function` VALUES ('6', '3', '3', '5', null);
 INSERT INTO `core_role_function` VALUES ('162', '1', '6', null, null);
@@ -440,7 +435,6 @@ CREATE TABLE `core_user_role` (
 -- Records of core_user_role
 -- ----------------------------
 INSERT INTO `core_user_role` VALUES ('1', '3', '1', '4', null);
-INSERT INTO `core_user_role` VALUES ('2', '4', '2', '5', null);
 INSERT INTO `core_user_role` VALUES ('3', '75', '3', '6', '2017-09-21 18:03:05');
 INSERT INTO `core_user_role` VALUES ('35', '1', '1', '1', '2017-09-06 01:12:02');
 INSERT INTO `core_user_role` VALUES ('36', '1', '3', '6', '2017-09-06 03:33:05');
@@ -449,9 +443,7 @@ INSERT INTO `core_user_role` VALUES ('41', '1', '1', '5', '2017-09-06 03:58:02')
 INSERT INTO `core_user_role` VALUES ('42', '3', '3', '1', '2017-09-06 04:01:00');
 INSERT INTO `core_user_role` VALUES ('47', '47', '3', '1', '2017-09-06 22:00:01');
 INSERT INTO `core_user_role` VALUES ('49', '5', '3', '4', '2017-09-06 22:01:00');
-INSERT INTO `core_user_role` VALUES ('52', '47', '2', '1', '2017-09-07 01:12:02');
 INSERT INTO `core_user_role` VALUES ('53', '48', '3', '4', '2017-09-07 01:14:04');
-INSERT INTO `core_user_role` VALUES ('55', '68', '2', '3', '2017-09-07 21:42:03');
 INSERT INTO `core_user_role` VALUES ('125', '74', '1', '4', '2017-10-17 09:37:02');
 INSERT INTO `core_user_role` VALUES ('144', '74', '3', null, '2017-10-17 16:55:00');
 INSERT INTO `core_user_role` VALUES ('145', '67', '3', null, '2017-10-17 16:55:01');
