@@ -1,0 +1,18 @@
+package com.c4game.client.console.exception;
+
+import com.ibeetl.admin.core.util.PlatformException;
+
+/**
+ * 描述: 资源不存在异常
+ *
+ * @author : xiandafu
+ */
+public class NoResourceException extends PlatformException {
+    public NoResourceException() {
+        super();
+    }
+
+    public NoResourceException(String message) {
+        super(message);
+    }
+}
