@@ -17,11 +17,11 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.c4game.client.console.service.AuditConsoleService;
 import com.c4game.client.console.web.query.AuditQuery;
-import com.ibeetl.admin.core.annotation.Function;
-import com.ibeetl.admin.core.annotation.Query;
-import com.ibeetl.admin.core.entity.CoreAudit;
-import com.ibeetl.admin.core.util.AnnotationUtil;
-import com.ibeetl.admin.core.web.JsonResult;
+import com.c4game.client.core.annotation.Function;
+import com.c4game.client.core.annotation.Query;
+import com.c4game.client.core.entity.CoreAudit;
+import com.c4game.client.core.util.AnnotationUtil;
+import com.c4game.client.core.web.JsonResult;
 /**
  * 用户管理接口
  * @author xiandafu

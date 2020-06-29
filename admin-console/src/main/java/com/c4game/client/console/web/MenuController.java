@@ -18,15 +18,15 @@ import org.springframework.web.servlet.ModelAndView;
 import com.c4game.client.console.service.MenuConsoleService;
 import com.c4game.client.console.web.query.FunctionQuery;
 import com.c4game.client.console.web.query.MenuQuery;
-import com.ibeetl.admin.core.annotation.Function;
-import com.ibeetl.admin.core.annotation.Query;
-import com.ibeetl.admin.core.entity.CoreFunction;
-import com.ibeetl.admin.core.entity.CoreMenu;
-import com.ibeetl.admin.core.rbac.tree.MenuItem;
-import com.ibeetl.admin.core.service.CorePlatformService;
-import com.ibeetl.admin.core.util.AnnotationUtil;
-import com.ibeetl.admin.core.util.ConvertUtil;
-import com.ibeetl.admin.core.web.JsonResult;
+import com.c4game.client.core.annotation.Function;
+import com.c4game.client.core.annotation.Query;
+import com.c4game.client.core.entity.CoreFunction;
+import com.c4game.client.core.entity.CoreMenu;
+import com.c4game.client.core.rbac.tree.MenuItem;
+import com.c4game.client.core.service.CorePlatformService;
+import com.c4game.client.core.util.AnnotationUtil;
+import com.c4game.client.core.util.ConvertUtil;
+import com.c4game.client.core.web.JsonResult;
 
 /**
  * @author lijiazhi

@@ -16,19 +16,19 @@ import com.c4game.client.console.exception.DeletedException;
 import com.c4game.client.console.exception.NoResourceException;
 import com.c4game.client.console.web.dto.UserExcelExportData;
 import com.c4game.client.console.web.query.UserRoleQuery;
-import com.ibeetl.admin.core.conf.PasswordConfig.PasswordEncryptService;
-import com.ibeetl.admin.core.entity.CoreDict;
-import com.ibeetl.admin.core.entity.CoreUser;
-import com.ibeetl.admin.core.entity.CoreUserRole;
-import com.ibeetl.admin.core.file.FileService;
-import com.ibeetl.admin.core.rbac.tree.OrgItem;
-import com.ibeetl.admin.core.service.CoreBaseService;
-import com.ibeetl.admin.core.service.CoreDictService;
-import com.ibeetl.admin.core.service.CorePlatformService;
-import com.ibeetl.admin.core.util.PlatformException;
-import com.ibeetl.admin.core.util.enums.CoreDictType;
-import com.ibeetl.admin.core.util.enums.DelFlagEnum;
-import com.ibeetl.admin.core.util.enums.GeneralStateEnum;
+import com.c4game.client.core.conf.PasswordConfig.PasswordEncryptService;
+import com.c4game.client.core.entity.CoreDict;
+import com.c4game.client.core.entity.CoreUser;
+import com.c4game.client.core.entity.CoreUserRole;
+import com.c4game.client.core.file.FileService;
+import com.c4game.client.core.rbac.tree.OrgItem;
+import com.c4game.client.core.service.CoreBaseService;
+import com.c4game.client.core.service.CoreDictService;
+import com.c4game.client.core.service.CorePlatformService;
+import com.c4game.client.core.util.PlatformException;
+import com.c4game.client.core.util.enums.CoreDictType;
+import com.c4game.client.core.util.enums.DelFlagEnum;
+import com.c4game.client.core.util.enums.GeneralStateEnum;
 
 @Service
 @Transactional

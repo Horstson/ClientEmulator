@@ -1,6 +1,6 @@
 package com.c4game.client.console.web.dto;
 
-import com.ibeetl.admin.core.entity.CoreFunction;
+import com.c4game.client.core.entity.CoreFunction;
 
 public class RoleDataAccessFunction extends CoreFunction {
 	private Integer dataAccessType;

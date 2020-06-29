@@ -4,10 +4,10 @@ import java.util.Date;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.ibeetl.admin.core.annotation.Query;
-import com.ibeetl.admin.core.util.Tool;
-import com.ibeetl.admin.core.util.enums.CoreDictType;
-import com.ibeetl.admin.core.web.query.PageParam;
+import com.c4game.client.core.annotation.Query;
+import com.c4game.client.core.util.Tool;
+import com.c4game.client.core.util.enums.CoreDictType;
+import com.c4game.client.core.web.query.PageParam;
 
 public class UserQuery extends PageParam {
 

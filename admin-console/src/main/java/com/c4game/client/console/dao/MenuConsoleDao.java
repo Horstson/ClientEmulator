@@ -4,7 +4,7 @@ import org.beetl.sql.core.annotatoin.SqlResource;
 import org.beetl.sql.core.engine.PageQuery;
 import org.beetl.sql.core.mapper.BaseMapper;
 
-import com.ibeetl.admin.core.entity.CoreMenu;
+import com.c4game.client.core.entity.CoreMenu;
 
 @SqlResource("console.menu")
 public interface MenuConsoleDao extends BaseMapper<CoreMenu> {

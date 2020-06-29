@@ -12,16 +12,16 @@ import org.springframework.transaction.annotation.Transactional;
 import com.c4game.client.console.dao.FunctionConsoleDao;
 import com.c4game.client.console.dao.RoleFunctionConsoleDao;
 import com.c4game.client.console.web.dto.RoleDataAccessFunction;
-import com.ibeetl.admin.core.dao.CoreMenuDao;
-import com.ibeetl.admin.core.dao.CoreRoleMenuDao;
-import com.ibeetl.admin.core.entity.CoreFunction;
-import com.ibeetl.admin.core.entity.CoreMenu;
-import com.ibeetl.admin.core.entity.CoreRoleFunction;
-import com.ibeetl.admin.core.entity.CoreRoleMenu;
-import com.ibeetl.admin.core.rbac.tree.FunctionItem;
-import com.ibeetl.admin.core.service.CoreBaseService;
-import com.ibeetl.admin.core.service.CorePlatformService;
-import com.ibeetl.admin.core.util.PlatformException;
+import com.c4game.client.core.dao.CoreMenuDao;
+import com.c4game.client.core.dao.CoreRoleMenuDao;
+import com.c4game.client.core.entity.CoreFunction;
+import com.c4game.client.core.entity.CoreMenu;
+import com.c4game.client.core.entity.CoreRoleFunction;
+import com.c4game.client.core.entity.CoreRoleMenu;
+import com.c4game.client.core.rbac.tree.FunctionItem;
+import com.c4game.client.core.service.CoreBaseService;
+import com.c4game.client.core.service.CorePlatformService;
+import com.c4game.client.core.util.PlatformException;
 /**
  * @author lijiazhi
  *

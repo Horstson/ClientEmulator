@@ -9,8 +9,8 @@ import org.beetl.sql.core.annotatoin.SqlStatementType;
 import org.beetl.sql.core.engine.PageQuery;
 import org.beetl.sql.core.mapper.BaseMapper;
 
-import com.ibeetl.admin.core.entity.CoreOrg;
-import com.ibeetl.admin.core.entity.CoreUser;
+import com.c4game.client.core.entity.CoreOrg;
+import com.c4game.client.core.entity.CoreUser;
 
 @SqlResource("console.org")
 public interface OrgConsoleDao extends BaseMapper<CoreOrg> {

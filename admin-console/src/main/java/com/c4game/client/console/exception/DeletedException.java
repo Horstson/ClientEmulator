@@ -1,6 +1,6 @@
 package com.c4game.client.console.exception;
 
-import com.ibeetl.admin.core.util.PlatformException;
+import com.c4game.client.core.util.PlatformException;
 
 /**
  * 描述:  已删除异常

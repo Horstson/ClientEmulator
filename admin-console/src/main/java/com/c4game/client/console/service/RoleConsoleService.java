@@ -11,13 +11,13 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.c4game.client.console.dao.RoleConsoleDao;
-import com.ibeetl.admin.core.entity.CoreRole;
-import com.ibeetl.admin.core.entity.CoreUser;
-import com.ibeetl.admin.core.rbac.tree.OrgItem;
-import com.ibeetl.admin.core.service.CoreBaseService;
-import com.ibeetl.admin.core.service.CorePlatformService;
-import com.ibeetl.admin.core.util.PlatformException;
-import com.ibeetl.admin.core.util.enums.RoleTypeEnum;
+import com.c4game.client.core.entity.CoreRole;
+import com.c4game.client.core.entity.CoreUser;
+import com.c4game.client.core.rbac.tree.OrgItem;
+import com.c4game.client.core.service.CoreBaseService;
+import com.c4game.client.core.service.CorePlatformService;
+import com.c4game.client.core.util.PlatformException;
+import com.c4game.client.core.util.enums.RoleTypeEnum;
 
 @Service
 @Transactional

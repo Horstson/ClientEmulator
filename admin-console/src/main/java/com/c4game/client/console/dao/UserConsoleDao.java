@@ -5,9 +5,9 @@ import org.beetl.sql.core.annotatoin.SqlResource;
 import org.beetl.sql.core.engine.PageQuery;
 import org.beetl.sql.core.mapper.BaseMapper;
 
-import com.ibeetl.admin.core.entity.CoreUser;
-import com.ibeetl.admin.core.entity.CoreUserRole;
-import com.ibeetl.admin.core.util.enums.GeneralStateEnum;
+import com.c4game.client.core.entity.CoreUser;
+import com.c4game.client.core.entity.CoreUserRole;
+import com.c4game.client.core.util.enums.GeneralStateEnum;
 
 import java.util.List;
 

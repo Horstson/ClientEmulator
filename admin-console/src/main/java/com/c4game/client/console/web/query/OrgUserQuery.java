@@ -2,10 +2,10 @@ package com.c4game.client.console.web.query;
 
 import java.util.Date;
 
-import com.ibeetl.admin.core.annotation.Query;
-import com.ibeetl.admin.core.util.Tool;
-import com.ibeetl.admin.core.util.enums.CoreDictType;
-import com.ibeetl.admin.core.web.query.PageParam;
+import com.c4game.client.core.annotation.Query;
+import com.c4game.client.core.util.Tool;
+import com.c4game.client.core.util.enums.CoreDictType;
+import com.c4game.client.core.web.query.PageParam;
 
 public class OrgUserQuery extends PageParam {
 

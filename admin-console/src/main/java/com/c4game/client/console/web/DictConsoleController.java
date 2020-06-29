@@ -34,16 +34,16 @@ import org.springframework.web.servlet.ModelAndView;
 import com.c4game.client.console.service.DictConsoleService;
 import com.c4game.client.console.web.dto.DictExcelImportData;
 import com.c4game.client.console.web.query.CoreDictQuery;
-import com.ibeetl.admin.core.annotation.Function;
-import com.ibeetl.admin.core.entity.CoreDict;
-import com.ibeetl.admin.core.entity.CoreUser;
-import com.ibeetl.admin.core.file.FileItem;
-import com.ibeetl.admin.core.file.FileService;
-import com.ibeetl.admin.core.service.CorePlatformService;
-import com.ibeetl.admin.core.util.ConvertUtil;
-import com.ibeetl.admin.core.util.PlatformException;
-import com.ibeetl.admin.core.util.ValidateConfig;
-import com.ibeetl.admin.core.web.JsonResult;
+import com.c4game.client.core.annotation.Function;
+import com.c4game.client.core.entity.CoreDict;
+import com.c4game.client.core.entity.CoreUser;
+import com.c4game.client.core.file.FileItem;
+import com.c4game.client.core.file.FileService;
+import com.c4game.client.core.service.CorePlatformService;
+import com.c4game.client.core.util.ConvertUtil;
+import com.c4game.client.core.util.PlatformException;
+import com.c4game.client.core.util.ValidateConfig;
+import com.c4game.client.core.web.JsonResult;
 
 /**
  * CoreDict 接口

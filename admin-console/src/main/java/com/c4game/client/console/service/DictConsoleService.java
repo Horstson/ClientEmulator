@@ -13,11 +13,11 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.c4game.client.console.dao.DictConsoleDao;
 import com.c4game.client.console.web.dto.DictExcelImportData;
-import com.ibeetl.admin.core.entity.CoreDict;
-import com.ibeetl.admin.core.entity.CoreUser;
-import com.ibeetl.admin.core.service.CoreBaseService;
-import com.ibeetl.admin.core.util.ExcelError;
-import com.ibeetl.admin.core.util.PlatformException;
+import com.c4game.client.core.entity.CoreDict;
+import com.c4game.client.core.entity.CoreUser;
+import com.c4game.client.core.service.CoreBaseService;
+import com.c4game.client.core.util.ExcelError;
+import com.c4game.client.core.util.PlatformException;
 
 /**
  * CoreDict Service

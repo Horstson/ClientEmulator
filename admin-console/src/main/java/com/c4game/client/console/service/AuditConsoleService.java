@@ -6,8 +6,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.c4game.client.console.dao.AuditConsoleDao;
-import com.ibeetl.admin.core.entity.CoreAudit;
-import com.ibeetl.admin.core.service.CoreBaseService;
+import com.c4game.client.core.entity.CoreAudit;
+import com.c4game.client.core.service.CoreBaseService;
 
 @Service
 @Transactional

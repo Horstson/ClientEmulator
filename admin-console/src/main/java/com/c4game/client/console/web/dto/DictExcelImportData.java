@@ -1,6 +1,6 @@
 package com.c4game.client.console.web.dto;
 
-import com.ibeetl.admin.core.entity.CoreDict;
+import com.c4game.client.core.entity.CoreDict;
 
 /**
  * 字典数据导入,参考 dict_mapping.xml

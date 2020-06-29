@@ -20,18 +20,18 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.c4game.client.console.service.FunctionConsoleService;
 import com.c4game.client.console.web.query.FunctionQuery;
-import com.ibeetl.admin.core.annotation.Function;
-import com.ibeetl.admin.core.annotation.Query;
-import com.ibeetl.admin.core.entity.CoreFunction;
-import com.ibeetl.admin.core.rbac.tree.FunctionItem;
-import com.ibeetl.admin.core.service.CorePlatformService;
-import com.ibeetl.admin.core.util.AnnotationUtil;
-import com.ibeetl.admin.core.util.ConvertUtil;
-import com.ibeetl.admin.core.util.FormFieldException;
-import com.ibeetl.admin.core.util.PlatformException;
-import com.ibeetl.admin.core.util.ValidateConfig;
-import com.ibeetl.admin.core.web.JsonResult;
-import com.ibeetl.admin.core.web.dto.FunctionNodeView;
+import com.c4game.client.core.annotation.Function;
+import com.c4game.client.core.annotation.Query;
+import com.c4game.client.core.entity.CoreFunction;
+import com.c4game.client.core.rbac.tree.FunctionItem;
+import com.c4game.client.core.service.CorePlatformService;
+import com.c4game.client.core.util.AnnotationUtil;
+import com.c4game.client.core.util.ConvertUtil;
+import com.c4game.client.core.util.FormFieldException;
+import com.c4game.client.core.util.PlatformException;
+import com.c4game.client.core.util.ValidateConfig;
+import com.c4game.client.core.web.JsonResult;
+import com.c4game.client.core.web.dto.FunctionNodeView;
 
 /**
  * 描述:  功能点管理

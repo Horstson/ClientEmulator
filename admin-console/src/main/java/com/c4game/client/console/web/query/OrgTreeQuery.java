@@ -2,7 +2,7 @@ package com.c4game.client.console.web.query;
 
 import java.util.List;
 
-import com.ibeetl.admin.core.web.query.PageParam;
+import com.c4game.client.core.web.query.PageParam;
 
 /**
  * 描述: 带有组织树相关的查询

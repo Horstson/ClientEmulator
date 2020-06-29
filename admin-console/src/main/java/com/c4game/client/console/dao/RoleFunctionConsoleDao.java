@@ -7,7 +7,7 @@ import org.beetl.sql.core.annotatoin.SqlResource;
 import org.beetl.sql.core.mapper.BaseMapper;
 
 import com.c4game.client.console.web.dto.RoleDataAccessFunction;
-import com.ibeetl.admin.core.entity.CoreRoleFunction;
+import com.c4game.client.core.entity.CoreRoleFunction;
 
 @SqlResource("console.roleFunction")
 public interface RoleFunctionConsoleDao extends BaseMapper<CoreRoleFunction> {

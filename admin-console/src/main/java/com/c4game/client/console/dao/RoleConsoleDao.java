@@ -7,8 +7,8 @@ import org.beetl.sql.core.engine.PageQuery;
 import org.beetl.sql.core.mapper.BaseMapper;
 
 import com.c4game.client.console.web.query.RoleUserQuery;
-import com.ibeetl.admin.core.entity.CoreRole;
-import com.ibeetl.admin.core.entity.CoreUser;
+import com.c4game.client.core.entity.CoreRole;
+import com.c4game.client.core.entity.CoreUser;
 
 @SqlResource("console.role")
 public interface RoleConsoleDao extends BaseMapper<CoreRole> {
