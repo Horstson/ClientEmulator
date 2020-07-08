@@ -16,11 +16,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.c4game.client.console.service.MenuConsoleService;
-import com.c4game.client.console.web.query.FunctionQuery;
 import com.c4game.client.console.web.query.MenuQuery;
 import com.c4game.client.core.annotation.Function;
 import com.c4game.client.core.annotation.Query;
-import com.c4game.client.core.entity.CoreFunction;
 import com.c4game.client.core.entity.CoreMenu;
 import com.c4game.client.core.rbac.tree.MenuItem;
 import com.c4game.client.core.service.CorePlatformService;

@@ -8,6 +8,10 @@ import com.c4game.client.core.entity.CoreDict;
  *
  */
 public class DictExcelImportData extends CoreDict {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Integer excelId;
 	private Integer parentExcelId;
 

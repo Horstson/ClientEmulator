@@ -1,7 +1,5 @@
 package com.c4game.client.console.web.query;
 
-import java.util.Date;
-
 import com.c4game.client.core.annotation.Query;
 import com.c4game.client.core.web.query.PageParam;
 

@@ -3,6 +3,10 @@ package com.c4game.client.console.web.dto;
 import com.c4game.client.core.entity.CoreFunction;
 
 public class RoleDataAccessFunction extends CoreFunction {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Integer dataAccessType;
 	private Long roleId;
 

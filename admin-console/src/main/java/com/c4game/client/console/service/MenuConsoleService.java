@@ -1,5 +1,13 @@
 package com.c4game.client.console.service;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import org.beetl.sql.core.engine.PageQuery;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
 import com.c4game.client.console.dao.MenuConsoleDao;
 import com.c4game.client.core.dao.CoreRoleMenuDao;
 import com.c4game.client.core.entity.CoreMenu;
@@ -7,14 +15,6 @@ import com.c4game.client.core.rbac.tree.MenuItem;
 import com.c4game.client.core.service.CoreBaseService;
 import com.c4game.client.core.service.CorePlatformService;
 import com.c4game.client.core.util.PlatformException;
-
-import org.beetl.sql.core.engine.PageQuery;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @Service
 @Transactional

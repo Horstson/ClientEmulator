@@ -1,10 +1,5 @@
 package com.c4game.client.console.web.dto;
 
-import javax.validation.constraints.NotBlank;
-
-import com.c4game.client.core.annotation.Dict;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-
 /**
  * excel导出需要的模板数据
  * @author xiandafu
