@@ -13,6 +13,6 @@ import com.c4game.client.core.entity.CoreDict;
  */
 @SqlResource("console.dict")
 public interface DictConsoleDao extends BaseMapper<CoreDict>{
-    public PageQuery<CoreDict> queryByCondition(PageQuery query);
+    public PageQuery<CoreDict> queryByCondition(PageQuery<?> query);
     public void batchDelCoreDictByIds( List<Long> ids);
 }

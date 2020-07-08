@@ -1,6 +1,7 @@
 package com.c4game.client.console.dao;
 
-import org.beetl.sql.core.annotatoin.Param;
+import java.util.List;
+
 import org.beetl.sql.core.annotatoin.SqlResource;
 import org.beetl.sql.core.engine.PageQuery;
 import org.beetl.sql.core.mapper.BaseMapper;
@@ -8,8 +9,6 @@ import org.beetl.sql.core.mapper.BaseMapper;
 import com.c4game.client.core.entity.CoreUser;
 import com.c4game.client.core.entity.CoreUserRole;
 import com.c4game.client.core.util.enums.GeneralStateEnum;
-
-import java.util.List;
 
 @SqlResource("console.user")
 public interface UserConsoleDao extends BaseMapper<CoreUser> {

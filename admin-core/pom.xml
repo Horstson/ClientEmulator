@@ -12,6 +12,7 @@
     <properties>
         <maven.test.skip>true</maven.test.skip>
     </properties>
+    
     <dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -39,7 +40,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-redis</artifactId>
 		</dependency>
-
 
 		<dependency>
 			<groupId>com.ibeetl</groupId>
@@ -96,7 +96,4 @@
         
 
     </dependencies>
-   
-
-  
 </project>

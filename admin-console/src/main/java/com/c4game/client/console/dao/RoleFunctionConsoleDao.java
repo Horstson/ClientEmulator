@@ -2,7 +2,6 @@ package com.c4game.client.console.dao;
 
 import java.util.List;
 
-import org.beetl.sql.core.annotatoin.Param;
 import org.beetl.sql.core.annotatoin.SqlResource;
 import org.beetl.sql.core.mapper.BaseMapper;
 
