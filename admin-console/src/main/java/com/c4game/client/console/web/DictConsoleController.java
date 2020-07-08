@@ -94,7 +94,7 @@ public class DictConsoleController{
     @ResponseBody
     public JsonResult<PageQuery> list(CoreDictQuery condtion)
     {
-        PageQuery page = condtion.getPageQuery();
+        PageQuery<CoreUser> page = condtion.getPageQuery();
         dictService.queryByCondition(page);
         return JsonResult.success(page);
     }
@@ -102,12 +102,12 @@ public class DictConsoleController{
     @PostMapping(MODEL + "/add.json")
     @Function("dict.add")
     @ResponseBody
-    public JsonResult add(@Validated(ValidateConfig.ADD.class)CoreDict dict)
+    public JsonResult<?> add(@Validated(ValidateConfig.ADD.class)CoreDict dict)
     {
         dict.setCreateTime(new Date());
         dictService.save(dict);
         platformService.clearDictCache();
-        return new JsonResult().success();
+		return JsonResult.success();
     }
 
     @PostMapping(MODEL + "/update.json")
@@ -117,7 +117,7 @@ public class DictConsoleController{
         boolean success = dictService.update(dict);
         if (success) {
         	platformService.clearDictCache();
-            return new JsonResult().success();
+			return JsonResult.success();
         } else {
             return JsonResult.failMessage("保存失败");
         }
@@ -186,7 +186,7 @@ public class DictConsoleController{
         XLSReader mainReader = ReaderBuilder.buildFromXML( inputXML );  
         InputStream inputXLS = ins;  
         List<DictExcelImportData> dicts = new ArrayList<DictExcelImportData>();  
-        Map beans = new HashMap();  
+        Map<String, List<DictExcelImportData>> beans = new HashMap<String, List<DictExcelImportData>>();  
         beans.put("list", dicts);
         ReaderConfig.getInstance().setSkipErrors( true );
         XLSReadStatus readStatus = mainReader.read( inputXLS, beans); 

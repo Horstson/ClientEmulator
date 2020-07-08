@@ -4,8 +4,6 @@ package com.c4game.client.console.web;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import org.beetl.sql.core.engine.PageQuery;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -29,7 +27,7 @@ import com.c4game.client.core.web.JsonResult;
  */
 @Controller
 public class AuditConsoleController {
-	private  final Log log  = LogFactory.getLog(this.getClass());
+//	private  final Log log  = LogFactory.getLog(this.getClass());
     private static final String MODEL = "/admin/audit";
 
     @Autowired
@@ -63,8 +61,8 @@ public class AuditConsoleController {
     @Function("trace")
     @ResponseBody
     public JsonResult<PageQuery<CoreAudit>> list(AuditQuery condtion) {
-       
-        PageQuery<CoreAudit> page = condtion.getPageQuery();
+    	@SuppressWarnings("unchecked")
+		PageQuery<CoreAudit> page = condtion.getPageQuery();
         auditConsoleService.queryByCondtion(page);
         return JsonResult.success(page);
     }
@@ -77,6 +75,4 @@ public class AuditConsoleController {
     		List<Map<String, Object>> list = AnnotationUtil.getInstance().getAnnotations(Query.class, AuditQuery.class);
     		return  JsonResult.success(list);
     }
-
-
 }

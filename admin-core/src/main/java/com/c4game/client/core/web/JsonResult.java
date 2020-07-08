@@ -76,8 +76,8 @@ public class JsonResult<T> {
     
     
     public static <T> JsonResult<T> success(T data) {
-	    	JsonResult<T> ret = JsonResult.success();
-	    	ret.setData(data);
+    	JsonResult<T> ret = JsonResult.success();
+    	ret.setData(data);
         return ret;
     }
     
