@@ -8,7 +8,12 @@ import com.c4game.client.core.util.PlatformException;
  * @author : xiandafu
  */
 public class NoResourceException extends PlatformException {
-    public NoResourceException() {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public NoResourceException() {
         super();
     }
 

@@ -2,10 +2,7 @@ package com.c4game.client.console.service;
 
 import java.util.List;
 
-import org.beetl.sql.core.SQLManager;
 import org.beetl.sql.core.engine.PageQuery;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -22,14 +19,11 @@ import com.c4game.client.core.util.enums.RoleTypeEnum;
 @Service
 @Transactional
 public class RoleConsoleService extends CoreBaseService<CoreRole> {
-    private static final Logger LOGGER = LoggerFactory.getLogger(RoleConsoleService.class);
+//    private static final Logger LOGGER = LoggerFactory.getLogger(RoleConsoleService.class);
 
     @Autowired
     private RoleConsoleDao roleDao;
     
-    @Autowired
-    private SQLManager sqlManager;
-
     @Autowired
     CorePlatformService platformService;
 
@@ -56,13 +50,13 @@ public class RoleConsoleService extends CoreBaseService<CoreRole> {
      * 根据条件查询
      * @param query
      */
-    public void queryByCondtion(PageQuery query) {
+    public void queryByCondtion(PageQuery<?> query) {
         roleDao.queryByCondtion(query);
         super.queryListAfter(query.getList());
     }
 
     
-    public PageQuery<CoreUser> queryRoleUser(PageQuery query) {
+    public PageQuery<CoreUser> queryRoleUser(PageQuery<?> query) {
     	OrgItem root = platformService.buildOrg();
     	PageQuery<CoreUser>  ret = roleDao.queryUser(query);
     	List<CoreUser> list = ret.getList();

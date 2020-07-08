@@ -29,8 +29,8 @@ public class DictConsoleService extends CoreBaseService<CoreDict> {
 
     @Autowired private DictConsoleDao dictDao;
 
-    public PageQuery<CoreDict>queryByCondition(PageQuery query){
-        PageQuery ret =  dictDao.queryByCondition(query);
+    public PageQuery<CoreDict>queryByCondition(PageQuery<?> query){
+        PageQuery<CoreDict> ret =  dictDao.queryByCondition(query);
         queryListAfter(ret.getList());
         return ret;
     }
@@ -45,7 +45,7 @@ public class DictConsoleService extends CoreBaseService<CoreDict> {
     }
     public List<CoreDict> queryExcel(PageQuery<CoreUser> query) {
         //同查询，不需要额外数据
-        PageQuery ret =  dictDao.queryByCondition(query);
+        PageQuery<CoreDict> ret =  dictDao.queryByCondition(query);
         queryListAfter(ret.getList());
         return ret.getList();
         

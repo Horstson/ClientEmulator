@@ -8,7 +8,12 @@ import com.c4game.client.core.util.PlatformException;
  * @author : xiandafu
  */
 public class DeletedException extends PlatformException {
-    public DeletedException() {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public DeletedException() {
         super();
     }
 
